@@ -507,7 +507,7 @@ function ChangeVideoForm({ videoInput, setVideoInput, onChangeVideo }) {
                 <button
                     type="button"
                     onClick={onChangeVideo}
-                    className="rounded-xl bg-[var(--text-h)] px-5 py-3 font-medium text-white transition opacity-90 hover:opacity-100"
+                    className="rounded-xl bg-[var(--accent)] px-5 py-3 font-medium text-[#14121F] transition opacity-90 hover:opacity-100"
                 >
                     Change
                 </button>

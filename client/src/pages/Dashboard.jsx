@@ -147,7 +147,7 @@ export default function Dashboard() {
             <button
               onClick={createRoom}
               disabled={loading}
-              className="mt-3 w-full rounded-xl bg-[var(--text-h)] px-4 py-3 font-medium text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+              className="w-full rounded-xl bg-[var(--accent)] px-4 py-3 font-medium text-[#14121F] transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {loading ? "Connecting..." : "Create Watch Party"}
             </button>
